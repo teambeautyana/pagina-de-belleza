@@ -1,0 +1,54 @@
+.morado {
+    width: 1900px;
+    height: 100px;
+    background-color: rgb(142, 44, 199);
+   border-radius: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .blanco {
+    width: 1020px;
+    height: 40px;
+    left: 80px;
+    background-color: white;
+    border-radius: 15px;
+    position: fixed;
+    top: 30px;
+    left: 700px;
+    z-index: 2;
+  }
+  /* Estilos para la barra de color rosado */
+.barra-rosada {
+  background-color: rgb(228, 161, 217);
+  height: 50px;
+}
+
+/* Estilos para la barra redonda dentro de la barra rosada */
+.barra-redonda {
+  background-color: white;
+  border-radius: 25px;
+  width: 900px;
+  height: 30px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para el texto dentro de la barra redonda */
+.barra-redonda p {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+.labialrosado
+  {
+    right: 150px;
+  }
+.square{
+
+  right: 200px;
+}
